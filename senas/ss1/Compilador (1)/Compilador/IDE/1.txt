@@ -1,0 +1,14 @@
+main
+{
+int n;
+real c1,c2,c3,c4,c5,p;
+cin n;
+cin c1;
+cin c2;
+cin c3;
+cin c4;
+cin c5;
+p := ((c1+c2+c3+c4+c5) / 5);
+cout n;
+cout p;
+}

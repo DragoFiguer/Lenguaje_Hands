@@ -1,0 +1,70 @@
+<script src="js/portadacopy.js"></script>
+<title>Jugando con animalitos</title>
+<style>
+  #contenedor {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: #05a5d6e7;
+    ;
+  }
+
+  body {
+    padding: 0px;
+    margin: 0;
+  }
+
+  #canvas {
+    margin-top: 25px;
+    width: 80%;
+    height: 75vh;
+    background-color: rgba(94, 90, 90, 0.383);
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #btn {
+    background-color: rgba(93, 197, 83, 0.705);
+    border-radius: 6px;
+    border-bottom: gray;
+    font-size: 25px;
+    color: yellow;
+    box-shadow: 10px 5px 5px rgb(12, 12, 12);
+    padding: 2px;
+    font-family: "Press Start 2P", cursive;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  #btn:hover {
+    opacity: .8;
+    color: rgb(255, 255, 255);
+  }
+
+  .butt {
+
+    margin: 25px;
+  }
+</style>
+
+<body onload="portada()">
+
+  <div id="contenedor">
+    <canvas id="canvas" width="1050px" height="700px"></canvas>
+
+    <div class="butt">
+
+      <a id="btn" type="a" href="registro.html">VOLVER A JUGAR</a>
+      <a id="btn" type="a" href="index.html">TERMINAR</a>
+    </div>
+    <audio autoplay>
+
+      <source id="audio" src="sonido/victoria.mp3" type="audio/mp3">
+  </div>
+  </audio>
+</body>
+
+</html>

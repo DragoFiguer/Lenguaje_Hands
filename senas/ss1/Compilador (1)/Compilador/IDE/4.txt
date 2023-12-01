@@ -1,0 +1,41 @@
+main
+{
+int tipo, minutos,local;
+real costo, totpagar;
+local := 0;
+// tipo de llamada internacional=1, nacional=2, local=3
+cin tipo;
+//cuantos minutos
+cin minutos;
+while (minutos > 0){
+if (tipo == 1) then{ 
+	if (minutos > 3) then {
+	costo := 7.59+(minutos -3)*3.03;
+	}else{ 
+	costo := 7.59;
+	}
+}
+if (tipo == 2) then{
+	if (minutos > 3) then {
+	costo := 1.20+(minutos -3)*0.48;
+	}else{
+	costo := 1.20;
+	}
+}
+if (tipo == 3) then{
+	local := local +1;
+	if (local > 50) then{
+	costo := 0.60;
+	}else{
+	costo :=0;
+	}
+}
+totpagar := totpagar + costo;
+//tipo de llamada	
+cin tipo;
+// cuantos minutos
+cin minutos;
+}
+//total a pagar
+cout totpagar;
+}

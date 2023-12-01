@@ -1,0 +1,48 @@
+body{
+    background-color: #05a5d6e7;
+}
+
+.container{
+    background-color: black;
+    #btn-salir{
+        text-align: left;
+    }
+}
+
+.output3 {
+    border: 4px solid #05a5d6e7;
+    margin-top: 1px;
+    margin-left: 20px;
+
+}
+
+.column2{
+    background-color: black;
+    width: 950px;
+    height: 450px;
+}
+
+.panel-heading{
+    margin-left: 32px;
+    height: 45px;
+    width: 880px;
+}
+
+
+#btn-salir{
+    background-color:rgba(141, 165, 6, 0.925);
+    border-radius: 6px;
+    border-bottom: gray;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    box-shadow: 10px 5px 5px rgb(12, 12, 12);
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+
+}
+
+#btn-exit{
+    padding-top: 1px;
+    text-align: center;
+}

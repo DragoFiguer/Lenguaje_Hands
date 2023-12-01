@@ -1,0 +1,106 @@
+#contenedor {
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  background-color: #05a5d6e7;
+  padding: 50px;
+  -ms-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 3px #000;
+  -ms-box-shadow: inset 0 0 3px #000;
+  box-shadow: inset 0 0 3px #000;
+  text-align: center;
+  cursor: move;
+}
+
+#contenedor2 {
+  width: 85vw;
+  height: auto;
+  text-align: center;
+  background-color: #05a5d6e7;
+  padding: 50px;
+  -ms-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 3px #000;
+  -ms-box-shadow: inset 0 0 3px #000;
+  box-shadow: inset 0 0 3px #000;
+  cursor: move;
+}
+
+#canvas {
+  width: 80%;
+  height: 75vh;
+  background-color: #4b484d;
+  -ms-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 3px #000;
+  -ms-box-shadow: inset 0 0 3px #000;
+  box-shadow: inset 0 0 3px #000;
+  text-align: center;
+  cursor: move;
+}
+.butt {
+  padding: 25px;
+  text-align: center;
+}
+#btn {
+  background-color: rgba(141, 165, 6, 0.925);
+  border-radius: 6px;
+  border-bottom: gray;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  box-shadow: 10px 5px 5px rgb(12, 12, 12);
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+}
+
+#btn:hover {
+  opacity: 0.8;
+  color: rgb(212, 175, 10);
+}
+
+form {
+  width: 70vw;
+  height: 27vw;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Snap ITC";
+  color: rgb(4, 2, 116);
+  background-image: url("../js/reg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-left: 100px;
+  margin-right: 65px;
+}
+input[type="text"] {
+  width: 90%;
+  height: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 25px;
+  box-sizing: border-box;
+  background-color: rgba(199, 194, 194, 0.884);
+}
+
+input[type="number"] {
+  width: 80%;
+  height: 5%;
+  padding: 14px 50px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  font-size: 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgba(199, 194, 194, 0.884);
+}
+

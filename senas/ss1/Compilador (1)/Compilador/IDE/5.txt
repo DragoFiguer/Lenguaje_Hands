@@ -1,0 +1,57 @@
+main {
+int i, anio, j, n;
+real t1,t2,t3,t4,t5,mayt2,totvin,vino;
+t1 :=0;
+t2 :=0;
+t3 :=0;
+t4 :=0;
+t5 :=0;
+mayt2 :=0;
+//años a evaluar
+cin n;
+i :=0;
+while(i<=n) {
+	totvin :=0;
+	j :=1;
+	while(j<=5){
+	//litros de vino del año i del tipo j
+	cin vino;
+	totvin := totvin+vino;
+	if (j == t1) then {
+	t1 := t1 + vino;
+	}
+	if (j == t2) then {
+	t2 := t2 + vino;
+	if (vino > mayt2) then {
+	mayt2 := totvin;
+	anio := i;
+	}
+	}
+	if (j == t3) then{
+	t3 := t3+vino;
+	if (vino == 0) then{
+	cout i;
+	}
+	}
+	if (j == t4) then {
+	t4 := t4+vino;
+	}
+	if (j == t5) then {
+	t5 := t5+vino;
+	}
+	j++;
+
+	}
+	
+	cout i;
+	cout totvin;
+i++;
+}
+cout t1;
+cout t2;
+cout t3;
+cout t4;
+cout t5;
+cout anio;
+cout mayt2;
+}

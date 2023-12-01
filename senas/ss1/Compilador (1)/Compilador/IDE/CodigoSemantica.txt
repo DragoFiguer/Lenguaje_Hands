@@ -1,0 +1,138 @@
+PROGRAMA
+ Variable int: 
+  Id: i Tipo:int Valor:None
+  Id: anio Tipo:int Valor:None
+  Id: j Tipo:int Valor:None
+  Id: n Tipo:int Valor:None
+ Variable real: 
+  Id: t1 Tipo:real Valor:None
+  Id: t2 Tipo:real Valor:None
+  Id: t3 Tipo:real Valor:None
+  Id: t4 Tipo:real Valor:None
+  Id: t5 Tipo:real Valor:None
+  Id: mayt2 Tipo:real Valor:None
+  Id: totvin Tipo:real Valor:None
+  Id: vino Tipo:real Valor:None
+ Asignacion a variable: t1 Tipo:real Valor:0.0
+  Constante: 0 Tipo:INT
+ Asignacion a variable: t2 Tipo:real Valor:0.0
+  Constante: 0 Tipo:INT
+ Asignacion a variable: t3 Tipo:real Valor:0.0
+  Constante: 0 Tipo:INT
+ Asignacion a variable: t4 Tipo:real Valor:0.0
+  Constante: 0 Tipo:INT
+ Asignacion a variable: t5 Tipo:real Valor:0.0
+  Constante: 0 Tipo:INT
+ Asignacion a variable: mayt2 Tipo:real Valor:0.0
+  Constante: 0 Tipo:INT
+ Lectura variable: None
+  Id: n Tipo:int Valor:0
+ Asignacion a variable: i Tipo:INT Valor:0
+  Constante: 0 Tipo:INT
+ While Tipo:boolean Valor:True
+  Operador: <= Tipo:boolean Valor:True
+   Id: i Tipo:int Valor:0
+   Id: n Tipo:int Valor:0
+  Bloque: 
+   Asignacion a variable: totvin Tipo:real Valor:0.0
+    Constante: 0 Tipo:INT
+   Asignacion a variable: j Tipo:INT Valor:1
+    Constante: 1 Tipo:INT
+   While Tipo:boolean Valor:False
+    Operador: <= Tipo:boolean Valor:False
+     Id: j Tipo:int Valor:1
+     Constante: 5 Tipo:INT
+    Bloque: 
+     Lectura variable: None
+      Id: vino Tipo:real Valor:0
+     Asignacion a variable: totvin Tipo:real Valor:0.0
+      Operador: + Tipo:real Valor:0.0
+       Id: totvin Tipo:real Valor:0.0
+       Id: vino Tipo:real Valor:0
+     If Tipo:boolean Valor:False
+      Operador: == Tipo:boolean Valor:False
+       Id: j Tipo:int Valor:1
+       Id: t1 Tipo:real Valor:0.0
+      Bloque: 
+       Asignacion a variable: t1 Tipo:real Valor:0.0
+        Operador: + Tipo:real Valor:0.0
+         Id: t1 Tipo:real Valor:0.0
+         Id: vino Tipo:real Valor:0
+     If Tipo:boolean Valor:False
+      Operador: == Tipo:boolean Valor:False
+       Id: j Tipo:int Valor:1
+       Id: t2 Tipo:real Valor:0.0
+      Bloque: 
+       Asignacion a variable: t2 Tipo:real Valor:0.0
+        Operador: + Tipo:real Valor:0.0
+         Id: t2 Tipo:real Valor:0.0
+         Id: vino Tipo:real Valor:0
+       If Tipo:boolean Valor:True
+        Operador: > Tipo:boolean Valor:True
+         Id: vino Tipo:real Valor:0
+         Id: mayt2 Tipo:real Valor:0.0
+        Bloque: 
+         Asignacion a variable: mayt2 Tipo:real Valor:0.0
+          Id: totvin Tipo:real Valor:0.0
+         Asignacion a variable: anio Tipo:int Valor:0
+          Id: i Tipo:int Valor:0
+     If Tipo:boolean Valor:False
+      Operador: == Tipo:boolean Valor:False
+       Id: j Tipo:int Valor:1
+       Id: t3 Tipo:real Valor:0.0
+      Bloque: 
+       Asignacion a variable: t3 Tipo:real Valor:0.0
+        Operador: + Tipo:real Valor:0.0
+         Id: t3 Tipo:real Valor:0.0
+         Id: vino Tipo:real Valor:0
+       If Tipo:boolean Valor:True
+        Operador: == Tipo:boolean Valor:True
+         Id: vino Tipo:real Valor:0
+         Constante: 0 Tipo:INT
+        Bloque: 
+         Escritura Tipo:int Valor:0
+          Id: i Tipo:int Valor:0
+     If Tipo:boolean Valor:False
+      Operador: == Tipo:boolean Valor:False
+       Id: j Tipo:int Valor:1
+       Id: t4 Tipo:real Valor:0.0
+      Bloque: 
+       Asignacion a variable: t4 Tipo:real Valor:0.0
+        Operador: + Tipo:real Valor:0.0
+         Id: t4 Tipo:real Valor:0.0
+         Id: vino Tipo:real Valor:0
+     If Tipo:boolean Valor:False
+      Operador: == Tipo:boolean Valor:False
+       Id: j Tipo:int Valor:1
+       Id: t5 Tipo:real Valor:0.0
+      Bloque: 
+       Asignacion a variable: t5 Tipo:real Valor:0.0
+        Operador: + Tipo:real Valor:0.0
+         Id: t5 Tipo:real Valor:0.0
+         Id: vino Tipo:real Valor:0
+     Asignacion a variable: j Tipo:int Valor:2
+      Operador: + Tipo:int Valor:2
+       Id: j Tipo:int Valor:1
+       Constante: 1 Tipo:int
+   Escritura Tipo:int Valor:0
+    Id: i Tipo:int Valor:0
+   Escritura Tipo:real Valor:0.0
+    Id: totvin Tipo:real Valor:0.0
+   Asignacion a variable: i Tipo:int Valor:1
+    Operador: + Tipo:int Valor:1
+     Id: i Tipo:int Valor:0
+     Constante: 1 Tipo:int
+ Escritura Tipo:real Valor:0.0
+  Id: t1 Tipo:real Valor:0.0
+ Escritura Tipo:real Valor:0.0
+  Id: t2 Tipo:real Valor:0.0
+ Escritura Tipo:real Valor:0.0
+  Id: t3 Tipo:real Valor:0.0
+ Escritura Tipo:real Valor:0.0
+  Id: t4 Tipo:real Valor:0.0
+ Escritura Tipo:real Valor:0.0
+  Id: t5 Tipo:real Valor:0.0
+ Escritura Tipo:int Valor:0
+  Id: anio Tipo:int Valor:0
+ Escritura Tipo:real Valor:0.0
+  Id: mayt2 Tipo:real Valor:0.0

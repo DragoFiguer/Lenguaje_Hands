@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/logo.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css/dist/css/bootstrap.min.css">
+
+    <title>Jugando con animalitos</title>
+</head>
+
+</style>
+<!--Hacemos uso de drop y allowdrop para poder arrastra nuestro animalito-->
+<body onload="dibuja();">
+  <section id="container"ondrop="drop(event)" ondragover="allowDrop(event)">
+<!--Div para imprimir el habitat del animalito-->
+  <div class="padre">
+     <div  class="tipo" id="habitat3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+     <div  class="tipo" id="habitat1" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+     <div  class="tipo" id="habitat2" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+   
+     </div>
+     
+     <div class="hijo">
+      <div  class="tipo1" id="nombre3" ></div>
+      <div  class="tipo1" id="nombre1" > </div>
+      <div  class="tipo1" id="nombre2" > </div>
+    
+      </div>
+    <!--Usamos un div para imprimir los animales que seran arrastrados-->
+     <div class="contenedor" style="background-color: #05a5d6e7;">
+
+     <img class="img" id="ia1" alt="" src="" draggable="true" ondragstart="drag(event)" name="habitat1"/>
+     <img class="img" id="ia2" alt="" src="" draggable="true" ondragstart="drag(event)" name="habitat2" />
+     <img class="img" id="ia3" alt="" src=""  draggable="true" ondragstart="drag(event)"name="habitat3" />
+     </div> 
+     <!--Se declaran los audios-->
+    <audio id="audio"  type="audio/mp3" src="sonido/derrota.mp3"></audio>
+    <audio id="audio1" type="audio/mp3" src=""></audio>
+    <audio id="audio2" type="audio/mp3" src=""></audio>
+    <audio id="audio3" type="audio/mp3" src=""></audio>
+ 
+    <div class="butt">
+      <a id="btn" type="a" href="parte2.html">NUEVAS IMAGENES</a>
+    </div>
+    <div class="butt">
+      <a id="btn2" type="a" href="index.html">VOLVER</a>
+    </div>
+   
+    
+ 
+ <script src="js/parte2.js"></script>
+  </section>
+</body>
+</html>

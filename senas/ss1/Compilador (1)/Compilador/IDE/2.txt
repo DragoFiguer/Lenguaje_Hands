@@ -1,0 +1,10 @@
+main
+{
+int n,t;
+cin n;
+if (t >= 0) then
+{
+t := (n / 4) + 40;
+}
+cout t;
+}

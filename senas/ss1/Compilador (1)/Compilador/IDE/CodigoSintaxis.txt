@@ -1,0 +1,138 @@
+PROGRAMA
+ Variable int: 
+  Id: i
+  Id: anio
+  Id: j
+  Id: n
+ Variable real: 
+  Id: t1
+  Id: t2
+  Id: t3
+  Id: t4
+  Id: t5
+  Id: mayt2
+  Id: totvin
+  Id: vino
+ Asignacion a variable: t1
+  Constante: 0
+ Asignacion a variable: t2
+  Constante: 0
+ Asignacion a variable: t3
+  Constante: 0
+ Asignacion a variable: t4
+  Constante: 0
+ Asignacion a variable: t5
+  Constante: 0
+ Asignacion a variable: mayt2
+  Constante: 0
+ Lectura variable: None
+  Id: n
+ Asignacion a variable: i
+  Constante: 0
+ While: 
+  Operador: <=
+   Id: i
+   Id: n
+  Bloque: 
+   Asignacion a variable: totvin
+    Constante: 0
+   Asignacion a variable: j
+    Constante: 1
+   While: 
+    Operador: <=
+     Id: j
+     Constante: 5
+    Bloque: 
+     Lectura variable: None
+      Id: vino
+     Asignacion a variable: totvin
+      Operador: +
+       Id: totvin
+       Id: vino
+     If
+      Operador: ==
+       Id: j
+       Id: t1
+      Bloque: 
+       Asignacion a variable: t1
+        Operador: +
+         Id: t1
+         Id: vino
+     If
+      Operador: ==
+       Id: j
+       Id: t2
+      Bloque: 
+       Asignacion a variable: t2
+        Operador: +
+         Id: t2
+         Id: vino
+       If
+        Operador: >
+         Id: vino
+         Id: mayt2
+        Bloque: 
+         Asignacion a variable: mayt2
+          Id: totvin
+         Asignacion a variable: anio
+          Id: i
+     If
+      Operador: ==
+       Id: j
+       Id: t3
+      Bloque: 
+       Asignacion a variable: t3
+        Operador: +
+         Id: t3
+         Id: vino
+       If
+        Operador: ==
+         Id: vino
+         Constante: 0
+        Bloque: 
+         Escritura
+          Id: i
+     If
+      Operador: ==
+       Id: j
+       Id: t4
+      Bloque: 
+       Asignacion a variable: t4
+        Operador: +
+         Id: t4
+         Id: vino
+     If
+      Operador: ==
+       Id: j
+       Id: t5
+      Bloque: 
+       Asignacion a variable: t5
+        Operador: +
+         Id: t5
+         Id: vino
+     Asignacion a variable: j
+      Operador: +
+       Id: j
+       Constante: 1
+   Escritura
+    Id: i
+   Escritura
+    Id: totvin
+   Asignacion a variable: i
+    Operador: +
+     Id: i
+     Constante: 1
+ Escritura
+  Id: t1
+ Escritura
+  Id: t2
+ Escritura
+  Id: t3
+ Escritura
+  Id: t4
+ Escritura
+  Id: t5
+ Escritura
+  Id: anio
+ Escritura
+  Id: mayt2

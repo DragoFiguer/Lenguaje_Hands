@@ -1,0 +1,3 @@
+No detecta variable duplicadas, 
+se promuee el error a la variable ocasionando una cascada de errores 
+y no tiene los numeros correctos en la tabla hash

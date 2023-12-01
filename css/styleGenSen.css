@@ -1,0 +1,91 @@
+body{
+    background-image: url("../GenSen.png");
+    color: rgb(15, 15, 15);
+  }
+  
+
+.title{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.label{
+    font-size: large;
+}
+
+.custom-input {
+    height: 20px;
+    width: 300px;
+    border-radius: 15px; /* Ajusta el valor según la cantidad de redondeo deseada */
+    margin: 11px;
+}
+
+#sec-traducir{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedores-traslate{
+    margin: 11px;
+}
+
+fieldset {
+    background-color: #f0f0f0;
+    border: 3px solid #020202;
+    margin: 0px;
+    width: 900px;
+}
+
+#seccion-boton, #seccion-reset{
+    display: flex;
+    justify-content: center;
+}
+
+.resultado{
+    display: flex;
+    /* flex-direction: row; */
+    /* align-content: stretch; */
+    justify-content: center;
+}
+
+.resultado img{
+    width: 25px;
+}
+
+.button{
+    margin-top: 30px;
+    margin-right: 20px;
+    background-color:rgba(141, 165, 6, 0.925);
+    border-radius: 6px;
+    border-bottom: gray;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    box-shadow: 10px 5px 5px rgb(12, 12, 12);
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    border: 60px;
+}
+
+#btn-exit{
+    margin-top: 140px;
+    text-align: right;
+}
+
+#btn-salir{
+    background-color:rgba(141, 165, 6, 0.925);
+    border-radius: 6px;
+    border-bottom: gray;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    box-shadow: 10px 5px 5px rgb(12, 12, 12);
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}

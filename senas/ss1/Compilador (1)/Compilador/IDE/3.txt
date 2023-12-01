@@ -1,0 +1,23 @@
+main
+{
+real pbasico, impuesto, ptotal;
+cin pbasico;
+if ( pbasico > 500.0 ) then{
+impuesto := 20.0 * 0.30 + (pbasico - 40.0) * 0.50;
+}else{
+if ( pbasico > 40.0 ) then{
+impuesto := 20.0 * 0.30 + (pbasico - 40.0) * 0.40;
+}else{
+if ( pbasico > 20.0 ) then{
+impuesto := (pbasico - 20.0) * 0.30;
+}else{
+impuesto := 0.0;
+}
+}
+}
+ptotal := pbasico + impuesto;
+cout pbasico;
+cout impuesto;
+cout ptotal;
+
+}
