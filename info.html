@@ -12,32 +12,33 @@
     <div id="myContainer" style="background-color: #05a5d6e7;">
         <h1>Abecedario de señas</h1>
         <div id="imageContainer">
-            <img id="myImage1" class="myImage" src="senas/1.jpg">
-            <img id="myImage2" class="myImage" src="senas/2.jpg">
-            <img id="myImage3" class="myImage" src="senas/3.jpg">
-            <img id="myImage4" class="myImage" src="senas/4.jpg">
-            <img id="myImage1" class="myImage" src="senas/5.jpg">
-            <img id="myImage2" class="myImage" src="senas/6.jpg">
-            <img id="myImage3" class="myImage" src="senas/7.jpg">
-            <img id="myImage4" class="myImage" src="senas/8.jpg">
-            <img id="myImage1" class="myImage" src="senas/9.jpg">
-            <img id="myImage2" class="myImage" src="senas/10.jpg">
-            <img id="myImage3" class="myImage" src="senas/11.jpg">
-            <img id="myImage4" class="myImage" src="senas/12.jpg">
-            <img id="myImage1" class="myImage" src="senas/13.jpg">
-            <img id="myImage2" class="myImage" src="senas/14.jpg">
-            <img id="myImage3" class="myImage" src="senas/15.jpg">
-            <img id="myImage4" class="myImage" src="senas/16.jpg">
-            <img id="myImage1" class="myImage" src="senas/17.jpg">
-            <img id="myImage2" class="myImage" src="senas/18.jpg">
-            <img id="myImage3" class="myImage" src="senas/19.jpg">
-            <img id="myImage4" class="myImage" src="senas/20.jpg">
-            <img id="myImage1" class="myImage" src="senas/21.jpg">
-            <img id="myImage2" class="myImage" src="senas/22.jpg">
-            <img id="myImage3" class="myImage" src="senas/23.jpg">
-            <img id="myImage4" class="myImage" src="senas/24.jpg">
-            <img id="myImage3" class="myImage" src="senas/25.jpg">
-            <img id="myImage4" class="myImage" src="senas/26.jpg">
+            <!-- <img id="myImage1" class="myImage" src="senas/1.jpg"> -->
+            <img id="myImage1" class="myImage" src="senas/1.jpg" onmouseover="playSound('sonido/sound_letters/1.mp3')">
+            <img id="myImage2" class="myImage" src="senas/2.jpg" onmouseover="playSound('sonido/sound_letters/2.mp3')">
+            <img id="myImage3" class="myImage" src="senas/3.jpg" onmouseover="playSound('sonido/sound_letters/3.mp3')">
+            <img id="myImage4" class="myImage" src="senas/4.jpg" onmouseover="playSound('sonido/sound_letters/4.mp3')">
+            <img id="myImage1" class="myImage" src="senas/5.jpg" onmouseover="playSound('sonido/sound_letters/5.mp3')">
+            <img id="myImage2" class="myImage" src="senas/6.jpg" onmouseover="playSound('sonido/sound_letters/6.mp3')">
+            <img id="myImage3" class="myImage" src="senas/7.jpg" onmouseover="playSound('sonido/sound_letters/7.mp3')">
+            <img id="myImage4" class="myImage" src="senas/8.jpg" onmouseover="playSound('sonido/sound_letters/8.mp3')">
+            <img id="myImage1" class="myImage" src="senas/9.jpg" onmouseover="playSound('sonido/sound_letters/9.mp3')">
+            <img id="myImage2" class="myImage" src="senas/10.jpg" onmouseover="playSound('sonido/sound_letters/10.mp3')">
+            <img id="myImage3" class="myImage" src="senas/11.jpg" onmouseover="playSound('sonido/sound_letters/11.mp3')">
+            <img id="myImage4" class="myImage" src="senas/12.jpg" onmouseover="playSound('sonido/sound_letters/12.mp3')">
+            <img id="myImage1" class="myImage" src="senas/13.jpg" onmouseover="playSound('sonido/sound_letters/13.mp3')">
+            <img id="myImage2" class="myImage" src="senas/14.jpg" onmouseover="playSound('sonido/sound_letters/14.mp3')">
+            <img id="myImage3" class="myImage" src="senas/15.jpg" onmouseover="playSound('sonido/sound_letters/15.mp3')">
+            <img id="myImage4" class="myImage" src="senas/16.jpg" onmouseover="playSound('sonido/sound_letters/16.mp3')">
+            <img id="myImage1" class="myImage" src="senas/17.jpg" onmouseover="playSound('sonido/sound_letters/17.mp3')">
+            <img id="myImage2" class="myImage" src="senas/18.jpg" onmouseover="playSound('sonido/sound_letters/18.mp3')">
+            <img id="myImage3" class="myImage" src="senas/19.jpg" onmouseover="playSound('sonido/sound_letters/19.mp3')">
+            <img id="myImage4" class="myImage" src="senas/20.jpg" onmouseover="playSound('sonido/sound_letters/20.mp3')">
+            <img id="myImage1" class="myImage" src="senas/21.jpg" onmouseover="playSound('sonido/sound_letters/21.mp3')">
+            <img id="myImage2" class="myImage" src="senas/22.jpg" onmouseover="playSound('sonido/sound_letters/22.mp3')">
+            <img id="myImage3" class="myImage" src="senas/23.jpg" onmouseover="playSound('sonido/sound_letters/23.mp3')">
+            <img id="myImage4" class="myImage" src="senas/24.jpg" onmouseover="playSound('sonido/sound_letters/24.mp3')">
+            <img id="myImage3" class="myImage" src="senas/25.jpg" onmouseover="playSound('sonido/sound_letters/25.mp3')">
+            <img id="myImage4" class="myImage" src="senas/26.jpg" onmouseover="playSound('sonido/sound_letters/26.mp3')">
             
         <div class="butt">
             <a id="btn" type="a" href="registro.html">JUGAR</a>
@@ -48,5 +49,14 @@
 
         
     </div>
+
+    <script>
+        function playSound(soundFile) {
+            const audio = new Audio(soundFile);
+            audio.play();
+        }
+    </script>
+
+
 </body>
 </html>
